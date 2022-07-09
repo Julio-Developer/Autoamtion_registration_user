@@ -11,12 +11,7 @@ This schedule must:
 '''
 
 # Impoting libraries
-import email
-from itertools import count
-from sys import path_hooks
 from time import sleep as sl
-from unicodedata import name
-from attr import s
 from selenium import webdriver as wd
 from selenium.webdriver.common.keys import Keys
 import pandas as pd
